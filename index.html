@@ -77,11 +77,17 @@
 
         <div class="container outer">
 
-            <div class="section-header has-text-centered">
+            <div class="section-header has-text-centered revealable">
                 <p>about</p>
             </div>
 
-            <div class="inner has-text-left">
+            <br>
+
+            <div class="image is-128x128 is-centered revealable">
+                <img class="avatar" src="img/grad.jpg">
+            </div>
+
+            <div class="inner has-text-left revealable">
 
                 <div class="columns vert-margin">
 
@@ -97,12 +103,25 @@
 
                             <br>
                             <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="columns vert-margin">
+    <section id="resume" name="resume" class="section contrast" style="background-color: rgb(192, 65, 65)">
+
+        <div class="container outer">
+
+            <div class="has-text-centered section-header revealable">
+                resume
+            </div>
+
+            <div class="inner">
+
+                <!-- Education -->
+                <div class="columns vert-margin revealable">
 
                     <div class="column is-one-quarter header">
                         education
@@ -133,7 +152,7 @@
                                     </div>
                                 </div>
 
-                                <p class="is-size-7">gpa: 4.0 </p>
+                                <p>gpa: 4.0 </p>
                             </div>
                         </div>
 
@@ -160,25 +179,24 @@
                                     </p>
                                 </div>
 
-                                <p class="is-size-7">
+                                <p>
                                     computer science
                                     <br>university honors
                                 </p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
 
-                <div class="columns vert-margin">
+                <!-- Skills -->
+                <div class="columns vert-margin revealable">
 
                     <div class="column is-one-quarter header">
                         skills
                     </div>
 
                     <div class="column">
-                        <p class="header">languages</p>
+                        <p class="entry-title">languages</p>
 
                         <p>
                             java
@@ -190,7 +208,7 @@
                     </div>
 
                     <div class="column">
-                        <p class="header">frameworks</p>
+                        <p class="entry-title">frameworks</p>
 
                         <p>
                             laravel
@@ -198,38 +216,54 @@
                     </div>
 
                     <div class="column">
-                        <p class="header">tools</p>
+                        <p class="entry-title">tools</p>
 
                         <p>
                             mysql
                             <br>a great attitude!
                         </p>
                     </div>
-
                 </div>
 
+                <!-- Work Experience -->
+                <div class="columns vert-margin revealable">
 
-            </div>
-        </div>
-    </section>
+                    <div class="column is-one-quarter header">
+                        work experience
+                    </div>
 
-    <section id="resume" name="resume" class="section contrast" style="background-color: darkgray">
+                    <div class="column">
 
-        <div class="container outer">
+                        <!-- IBBR -->
 
-            <div class="has-text-centered section-header">
-                resume
-            </div>
+                        <div class="container">
+                            <div class="level is-marginless">
+                                <div class="level-left entry-title">
+                                    Institute for Bioscience and Biotechnology Research
+                                </div>
 
-            <div class="inner">
+                                <div class="level-right is-marginless">
+                                    <p>
+                                        summer of 2017
+                                    </p>
+                                </div>
+                            </div>
 
-                <p class="has-text-centered">pdf</p>
+                            <p class="job-title">intern</p>
+                            <br>
+                            <p class="job-desc">
 
-                <div class="columns">
-                    <div class="column has-text-left header">
-                        education
+                                refactored the <a href="http://bmcd.ibbr.umd.edu/">biological macromolecule crystallization database</a>
+                                <br> > migrated site to laravel framework
+                                <br> > worked with MySQL and PHP to improve database data collection process
+                                <br> > developed algorithm to identify chemical reagent names from plaintext
+                            </p>
+                        </div>
+
+
                     </div>
                 </div>
+
             </div>
         </div>
 

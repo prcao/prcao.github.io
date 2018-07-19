@@ -7,11 +7,6 @@ strong {
     font-style: bold;
 }
 
-
-.no-margin {
-    margin: 0 !important;
-}
-
 .navbar-burger {
     margin-top: 12px;
     margin-bottom: 12px;
@@ -47,6 +42,11 @@ strong {
     padding: 16px;
 }
 
+.is-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section-header {
     font-weight: bold;
     font-size: 200%;
@@ -54,6 +54,8 @@ strong {
 
 .header {
     font-weight: bold;
+    color: blue;
+    font-size: 120%;
 }
 
 .vert-margin {
@@ -67,6 +69,7 @@ strong {
 
 .entry-title {
     font-weight: bold;
+    font-size: 120%;
 }
 
 .entry-place {
@@ -75,4 +78,8 @@ strong {
 
 img.avatar {
     border-radius: 50%;
+}
+
+.job-desc {
+    font-size: 80%;
 }
