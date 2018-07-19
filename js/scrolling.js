@@ -8,12 +8,6 @@ const options = {
 window.sr = ScrollReveal();
 sr.reveal('.revealable', options);
 
-$("#arrow").click(
-    () => {
-        scrollToAnchor('about')
-    }
-);
-
 function scrollToID(id) {
 
     $('html, body').animate(
