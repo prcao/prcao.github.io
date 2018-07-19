@@ -69,16 +69,8 @@ strong {
     font-weight: bold;
 }
 
-.entry-subtitle {
-
-}
-
-.align-left {
-    float: left;
-}
-
-.align-right {
-    float: right;
+.entry-place {
+    margin-right: 128px;
 }
 
 img.avatar {
