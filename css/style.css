@@ -64,6 +64,11 @@ strong {
     margin-bottom: 32px;
 }
 
+.horz-margin {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .entry {
     margin-bottom: 16px;
 }
@@ -83,4 +88,22 @@ img.avatar {
 
 .job-desc {
     font-size: 80%;
+}
+
+.showcase {
+    border-radius: 2.5%;
+}
+
+.read-more {
+    transition: transform .3s ease-out;
+    display: inline-block;
+    color: inherit;
+}
+
+.read-more:hover {
+    transform: translate(5px, 0);
+}
+
+.inline-block {
+    display: inline-block;
 }

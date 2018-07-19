@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Patrick Cao</title>
+    <!-- Bulma -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/arrow.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
 </head>
 
@@ -114,8 +118,15 @@
 
         <div class="container outer">
 
-            <div class="has-text-centered section-header revealable">
-                resume
+            <div class="has-text-centered  revealable">
+                <div class="section-header">
+                    resume
+                </div>
+
+                <br>
+
+                <button class="button is-link" href="">pdf</a>
+
             </div>
 
             <div class="inner">
@@ -174,9 +185,12 @@
                                         University of Maryland
                                     </div>
 
-                                    <p>
-                                        class of 2018
-                                    </p>
+                                    <div class="level-right is-marginless">
+                                        <p>
+                                            class of 2022
+                                        </p>
+                                    </div>
+
                                 </div>
 
                                 <p>
@@ -212,6 +226,7 @@
 
                         <p>
                             laravel
+                            <br> bulma
                         </p>
                     </div>
 
@@ -220,7 +235,6 @@
 
                         <p>
                             mysql
-                            <br>a great attitude!
                         </p>
                     </div>
                 </div>
@@ -239,14 +253,12 @@
                         <div>
                             <div class="level is-marginless">
                                 <div class="level-left entry-title">
-                                    Institute for Bioscience and Biotechnology Research
+                                    <a href="http://ibbr.umd.edu">IBBR</a>
                                 </div>
 
-                                <div class="level-right">
-                                    <p>
-                                        summer of 2017
-                                    </p>
-                                </div>
+                                <p>
+                                    summer of 2017
+                                </p>
                             </div>
 
                             <p class="job-title">intern</p>
@@ -269,6 +281,111 @@
         </div>
 
     </section>
+
+    <section id="projects" class="section">
+        <div class="container outer">
+
+            <div class="has-text-centered section-header revealable">
+                projects
+            </div>
+
+            <div class="container inner">
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-vertical">
+                        <!-- Project 1 -->
+                        <div class="is-child box">
+                            <p class="title">project type</p>
+                            <p class="subtitle">project description</p>
+
+                            <div class="image">
+                                <img class="showcase" src="img/placeholder.jpg">
+                            </div>
+
+                            <br>
+
+                            <p>project summary. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                            <br>
+
+                            <a class="read-more">
+                                <p class="subtitle inline-block">
+                                    read more
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="tile is-parent">
+                        <div class="is-child box">
+                            <p class="title">project type</p>
+                            <p class="subtitle">project description</p>
+
+                            <div class="image">
+                                <img class="showcase" src="img/placeholder.jpg">
+                            </div>
+                            <br>
+                            <p>project summary. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                            <br>
+                            
+                            <a class="read-more">
+                                <p class="subtitle inline-block">
+                                    read more
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-vertical">
+                        <!-- Project 1 -->
+                        <div class="is-child box">
+                            <p class="title">project type</p>
+                            <p class="subtitle">project description</p>
+
+                            <div class="image horz-margin">
+                                <img class="showcase" src="img/placeholder.jpg">
+                            </div>
+
+                            <br>
+
+                            <p>project summary. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                            <br>
+
+                            <a class="read-more">
+                                <p class="subtitle inline-block">
+                                    read more
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
     <br>
     <br>
     <br>
@@ -276,7 +393,10 @@
     <br>
     <br>
 
+    <!-- Scroll reveal -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/scrolling.js"></script>
     <script src="js/navbar.js"></script>
