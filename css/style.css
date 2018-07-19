@@ -43,8 +43,9 @@ strong {
 }
 
 .is-centered {
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: auto;
+    justify-content: center;
 }
 
 .section-header {
