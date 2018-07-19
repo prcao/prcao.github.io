@@ -1,10 +1,5 @@
-* {
+*  {
     font-family: "Montserrat", sans-serif;
-}
-
-strong {
-    font-size: 150%;
-    font-style: bold;
 }
 
 .navbar-burger {
@@ -55,8 +50,14 @@ strong {
 
 .header {
     font-weight: bold;
-    color: blue;
+    color: #0277BD;
     font-size: 120%;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 170%;
+    color: #0277BD;
 }
 
 .vert-margin {
@@ -97,6 +98,9 @@ img.avatar {
 .read-more {
     transition: transform .3s ease-out;
     display: inline-block;
+}
+
+a {
     color: inherit;
 }
 
@@ -106,4 +110,12 @@ img.avatar {
 
 .inline-block {
     display: inline-block;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+footer {
+    background-color: #212121;
 }
