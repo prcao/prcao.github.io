@@ -38,6 +38,10 @@ li {
     padding: 5px 0px;
 }
 
+ul {
+    margin: 12px 0;
+}
+
 .outer {
     padding: 64px;
 }
@@ -61,6 +65,10 @@ li {
     font-weight: bold;
     color: #2196F3;
     font-size: 120%;
+}
+
+.icon {
+    margin-right: 8px;
 }
 
 strong {
@@ -98,6 +106,7 @@ img.avatar {
 
 .showcase {
     border-radius: 2.5%;
+    max-width: 480px;
 }
 
 .read-more {
