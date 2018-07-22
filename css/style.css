@@ -29,6 +29,15 @@
     transition: top .5s;
 }
 
+li + li {
+    border-top: 1px solid lightgray;
+    
+}
+
+li {
+    padding: 5px 0px;
+}
+
 .outer {
     padding: 64px;
 }
