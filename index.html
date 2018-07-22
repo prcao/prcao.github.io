@@ -22,7 +22,7 @@
         <div class="navbar-brand">
 
             <h1 class="title is-2 navbar-item is-marginless">
-                <a class="brand" onclick="scrollToID('landing')">Patrick Cao</a>
+                <a class="brand" href="#landing">Patrick Cao</a>
             </h1>
 
             <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -35,10 +35,10 @@
 
         <div class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item" onclick="scrollToID('about')">About</a>
-                <a class="navbar-item" onclick="scrollToID('resume')">Resume</a>
-                <a class="navbar-item" onclick="scrollToID('projects')">Projects</a>
-                <a class="navbar-item" onclick="scrollToID('contact')">Contact</a>
+                <a class="navbar-item" href="index.html#about">About</a>
+                <a class="navbar-item" href="index.html#resume">Resume</a>
+                <a class="navbar-item" href="index.html#projects">Projects</a>
+                <a class="navbar-item" href="index.html#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -67,7 +67,7 @@
                 <br>
 
                 <div class="container">
-                    <a onclick="scrollToID('about')">
+                    <a href="#about">
                         <div class="arrow bounce" id="arrow"></div>
                     </a>
                 </div>
@@ -125,7 +125,7 @@
 
                 <br>
 
-                <button class="button is-link" href="">pdf</a>
+                <button class="button is-link" href="" target="_blank">view pdf</a>
 
             </div>
 
@@ -163,7 +163,7 @@
                                     </div>
                                 </div>
 
-                                <p>gpa: 4.0 </p>
+                                <p>GPA: 4.0 </p>
                             </div>
                         </div>
 
@@ -194,8 +194,8 @@
                                 </div>
 
                                 <p>
-                                    computer science
-                                    <br>university honors
+                                    Computer Science
+                                    <br>University Honors
                                 </p>
                             </div>
                         </div>
@@ -294,8 +294,43 @@
             <div class="inner">
 
                 <div class="tile is-ancestor revealable">
-                    <div class="tile is-parent is-vertical">
+                    <div class="tile is-parent">
                         <!-- Project 1 -->
+                        <div class="is-child box">
+
+                            <p class="title">endgame</p>
+                            <p class="subtitle">a bullet hell inspired game</p>
+
+                            <div class="image">
+                                <img class="showcase" src="img/projects/bullethell.jpg">
+                            </div>
+
+                            <br>
+
+                            <div>
+                                <p>summer 2016</p>
+                                <p>
+                                    endgame was a bullet hell inspired 2d java game i made during the summer for fun.
+                                </p>
+                            </div>
+
+
+                            <br>
+
+                            <a class="read-more" href="projects/endgame.html">
+                                <p class="subtitle inline-block">
+                                    github
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="tile is-parent">
                         <div class="is-child box">
                             <p class="title">project type</p>
                             <p class="subtitle">project description</p>
@@ -303,9 +338,7 @@
                             <div class="image">
                                 <img class="showcase" src="img/placeholder.jpg">
                             </div>
-
                             <br>
-
                             <p>project summary. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 
                             <br>
@@ -348,43 +381,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="tile is-ancestor revealable">
-                    <div class="tile is-parent is-vertical">
-                        <!-- Project 1 -->
-                        <div class="is-child box">
-                            <p class="title">project type</p>
-                            <p class="subtitle">project description</p>
-
-                            <div class="image horz-margin">
-                                <img class="showcase" src="img/placeholder.jpg">
-                            </div>
-
-                            <br>
-
-                            <p>project summary. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-
-                            <br>
-
-                            <a class="read-more">
-                                <p class="subtitle inline-block">
-                                    read more
-                                </p>
-
-                                <span class="icon">
-                                    <i class="fas fa-arrow-right"></i>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-
-
-                </div>
-
             </div>
-
-
-
         </div>
 
     </section>
@@ -432,8 +429,6 @@
     <!-- Scroll reveal -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/scrolling.js"></script>
     <script src="js/navbar.js"></script>
 </body>

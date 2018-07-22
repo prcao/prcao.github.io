@@ -1,5 +1,6 @@
 *  {
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navbar-burger {
@@ -50,7 +51,7 @@
 
 .header {
     font-weight: bold;
-    color: #0277BD;
+    color: #2196F3;
     font-size: 120%;
 }
 
@@ -87,10 +88,6 @@ img.avatar {
     border-radius: 50%;
 }
 
-.job-desc {
-    font-size: 80%;
-}
-
 .showcase {
     border-radius: 2.5%;
 }
@@ -111,11 +108,6 @@ a {
 .inline-block {
     display: inline-block;
 }
-
-body {
-    background-color: #F5F5F5;
-}
-
 footer {
     background-color: #212121;
 }
