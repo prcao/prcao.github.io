@@ -2,6 +2,6 @@
 
 <p>
     todo:
-    <br>use ejs
-    <br>use sass
+    <br>jekyll?
+
 </p>
