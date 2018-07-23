@@ -3,15 +3,21 @@
     scroll-behavior: smooth;
 }
 
+#pcao {
+    margin-left: -2.3px;
+}
+
+#intro {
+    margin-bottom: 32px;
+}
+
+#intro_contact {
+    margin-left: 2px;
+}
+
 .navbar-burger {
     margin-top: 12px;
     margin-bottom: 12px;
-}
-
-.flexbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .contrast * {
@@ -96,15 +102,11 @@ strong {
     font-size: 120%;
 }
 
-.entry-place {
-    margin-right: 128px;
-}
-
 img.avatar {
     border-radius: 50%;
 }
 
-.showcase {
+img.showcase {
     border-radius: 2.5%;
     max-width: 480px;
 }
