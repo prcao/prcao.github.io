@@ -16,8 +16,8 @@
 }
 
 .navbar-burger {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .contrast * {
@@ -49,11 +49,11 @@ ul {
 }
 
 .outer {
-    padding: 64px;
+    padding: 6%;
 }
 
 .inner {
-    padding: 16px;
+    padding: 2%;
 }
 
 .is-centered {
