@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+.revealable {
+    visibility: hidden;
+}
+
 #pcao {
     margin-left: -2.3px;
 }
