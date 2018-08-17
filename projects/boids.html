@@ -78,16 +78,25 @@
                         <a href="https://en.wikipedia.org/wiki/Boids" class="has-text-weight-bold" />boids.</a>
 
                         <br>
-                        <br> This implementation uses a spatial hashmap to optimize the neighbor-finding algorithm. The simulation
-                        runs at a reasonable speed on my computer (i7-7700HQ), running at 80-100 fps when simulating 500
-                        boids.
+                        <br> I implemented 3 different approaches in determining each boid's neighbors:
+
+                        <ol>
+                            <li>Brute force</li>
+                            <li>Spatial hashmap</li>
+                            <li>Quadtree</li>
+                        </ol>
+
+                        The simulation runs very well on my computer (i7-7700HQ) using the spatial hashmap approach, running at 80-100
+                        fps when simulating 500 boids.
 
                         <br>
-                        <br> In contrast, when a brute-force neighbor-finding algorithm is used with 500 boids, the simulation runs at about 5 fps.
-                        A quad tree approach also does not do very well, running at about 15 fps.
+                        <br> In contrast, when simulating 500 boids using a brute force or quadtree approach, the simulation
+                        averaged about 5 fps.
 
                         <br>
-                        <br> Want a demo? Unfortunately, because this was written in Java, you'll have to run it locally. A release can be found <a class="has-text-weight-bold" target="_blank" href="https://github.com/prcao/boids/releases">here!</a>
+                        <br> Want a demo? Unfortunately, because this was written in Java, you'll have to run it locally. A release
+                        can be found
+                        <a class="has-text-weight-bold" target="_blank" href="https://github.com/prcao/boids/releases">here!</a>
 
                     </div>
                 </div>
