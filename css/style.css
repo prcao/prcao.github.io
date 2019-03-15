@@ -97,6 +97,14 @@ strong {
     margin-right: 25%;
 }
 
+.top-margin {
+    margin-top: 12px;
+}
+
+.bot-margin {
+    margin-bottom: 12px;
+}
+
 .entry {
     margin-bottom: 16px;
 }
@@ -133,4 +141,14 @@ a {
 }
 footer {
     background-color: #212121;
+}
+
+.align-left {
+    text-align: left
+    justify: left
+}
+
+.center-line {
+    position: relative;
+    transform: translateY(-50%); 
 }
