@@ -121,6 +121,7 @@ img.avatar {
 img.showcase {
     border-radius: 2.5%;
     width: 480px;
+    margin: 0 !important;
 }
 
 .read-more {
@@ -144,8 +145,8 @@ footer {
 }
 
 .align-left {
-    text-align: left
-    justify: left
+    text-align: left;
+    justify: left;
 }
 
 .center-line {
